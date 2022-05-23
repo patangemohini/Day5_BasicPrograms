@@ -5,5 +5,6 @@ public class BasicCorePrograms {
         System.out.println("Welcome to java basic programs!!!");
         AllBasicPrograms allBasicPrograms = new AllBasicPrograms();
         allBasicPrograms.flipCoil();
+        allBasicPrograms.EvenOdd();
     }
 }
