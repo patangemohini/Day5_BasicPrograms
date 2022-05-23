@@ -24,7 +24,7 @@ public class AllBasicPrograms {
             }
             perOfHead = head / flips * 100.0;
             perOfTail = tail / flips * 100.0;
-            System.out.println("Percentage of head is : " + perOfHead + "%");
+            System.out.println("Percentage of head " + " is : " + perOfHead + "%");
             System.out.println("Percentage of tail id : " + perOfTail + "%");
         }
     }
