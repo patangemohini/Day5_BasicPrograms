@@ -6,6 +6,7 @@ public class BasicCorePrograms {
     static final int FLIP_COIN = 0;
     static final int EVEN_ODD = 1;
     static final int VOWEL_CONSONANT = 2;
+    static final int SWAP_TWO_NUMBERS = 3;
 
     public static void main(String[] args) {
         System.out.println("Welcome to java basic programs!!!");
@@ -24,6 +25,9 @@ public class BasicCorePrograms {
                 break;
             case VOWEL_CONSONANT:
                 allBasicPrograms.vowelsConsonant();
+                break;
+            case SWAP_TWO_NUMBERS:
+                allBasicPrograms.swapTwoNumbers();
                 break;
         }
     }

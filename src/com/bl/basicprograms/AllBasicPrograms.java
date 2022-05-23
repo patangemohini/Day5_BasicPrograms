@@ -54,5 +54,27 @@ public class AllBasicPrograms {
             System.out.println(ch + " is consonant ");
         }
     }
+
+    public void swapTwoNumbers() {
+        int x;
+        int y;
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the any two numbers ");
+        x = scanner.nextInt();
+        y = scanner.nextInt();
+
+        System.out.println("Before swap");
+        System.out.println("Enter the first number " + " x " + " = " + x);
+        System.out.println("Enter the second number " + " y " + " = " + y);
+
+        int temp = x;
+        x = y;
+        y = temp;
+
+        System.out.println("After swap");
+        System.out.println("Enter the first number " + " x " + " = " + x);
+        System.out.println("Enter the second number " + " y " + " = " + y);
+    }
 }
 
