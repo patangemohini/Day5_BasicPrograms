@@ -29,7 +29,7 @@ public class AllBasicPrograms {
         }
     }
 
-    public void EvenOdd() {
+    public void evenOdd() {
         int number;
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a number : ");
@@ -38,7 +38,20 @@ public class AllBasicPrograms {
         if (number % 2 == 0) {
             System.out.println(number + " is even ");
         } else {
-            System.out.println(number + "is odd ");
+            System.out.println(number + " is odd ");
+        }
+    }
+
+    public void vowelsConsonant() {
+        char ch;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter an Alphabet : ");
+        ch = s.next().charAt(0);
+
+        if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+            System.out.println(ch + " is vowel ");
+        } else {
+            System.out.println(ch + " is consonant ");
         }
     }
 }
